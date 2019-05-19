@@ -37,7 +37,7 @@ if dirExist == False:   #If not, Downloading and Installing it.
     os.system('clear')
 
     # Setting Timer Value (In second)
-    userTimer = int(input('Enter timer between ip change :  ')) 
+    userTimer = int(input('Enter [In seconds] timer between ip change [Min: 20] :  ')) 
     t = userTimer
 
     # Starting The Engine..
@@ -53,7 +53,7 @@ if dirExist == False:   #If not, Downloading and Installing it.
 if dirExist == True:
 
 
-    userTimer = int(input('Enter timer between ip change :  '))
+    userTimer = int(input('Enter [In seconds] timer between ip change [Min: 20] :  '))
     t = userTimer
 
     print('Starting Tor Bouncing')
