@@ -20,16 +20,11 @@ if dirExist == False:
         time.sleep(t)
 
 if dirExist == True:
-
-
     userTimer = int(input('Enter timer between ip change :  '))
     t = userTimer
-
     print('Starting Tor Bouncing')
     time.sleep(3)
-
     os.system('torghost start')
-
     while(True):
         os.system('torghost switch')
         time.sleep(t)
