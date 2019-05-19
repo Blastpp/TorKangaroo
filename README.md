@@ -1,4 +1,4 @@
-# TorKangaroo 1.0.0
+# TorKangaroo 1.0.1
 Simple python script add a while to SWITCH function of TorGhost
 
 ## TorGhost
