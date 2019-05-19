@@ -17,6 +17,6 @@ Maybe in a couple of week, TorKangaroo will die and be add in TorGhost.
 ## Roadmap
 
 ```
-[] Turn off automaticly torghost after using script
+[✓] Turn off automaticly torghost after using script
 [] Add some colors
 ```
